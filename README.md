@@ -1,3 +1,11 @@
+# WHY THE EF FORK? #
+Because we're currently waiting for this issue to be resolved:
+https://github.com/ftlabs/fastclick/issues/127
+
+Once it's merged, we'll delete this branch and point our bower dependencies faithfully back to the proper place.
+
+What follows is the original README.md
+
 # FastClick #
 
 FastClick is a simple, easy-to-use library for eliminating the 300ms delay between a physical tap and the firing of a `click` event on mobile browsers. The aim is to make your application feel less laggy and more responsive while avoiding any interference with your current logic.
